@@ -41,9 +41,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin_medium"
-            android:maxLines="3"
             android:ellipsize="end"
             android:lineSpacingMultiplier="1.3"
+            android:maxLines="3"
             android:text="@string/txt_sample_headline"
             android:textColor="@color/colorTextPrimary"
             android:textSize="@dimen/text_regular_3x"
@@ -63,7 +63,7 @@
             android:layout_height="1dp"
             android:layout_marginTop="@dimen/margin_medium" />
 
-        <FrameLayout
+        <!--<FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin_medium">
@@ -84,8 +84,14 @@
                 android:paddingEnd="@dimen/margin_xxlarge"
                 android:text="@string/btn_like"
                 android:textAllCaps="false" />
-        </FrameLayout>
+        </FrameLayout>-->
 
+        <include
+            android:id="@+id/viewPodReaction"
+            layout="@layout/view_pod_reaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_medium" />
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

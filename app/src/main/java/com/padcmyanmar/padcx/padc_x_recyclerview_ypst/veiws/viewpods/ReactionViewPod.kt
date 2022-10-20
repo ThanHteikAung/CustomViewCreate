@@ -21,7 +21,7 @@ class ReactionViewPod @JvmOverloads constructor(
         mDelegate = delegate
     }
 
-    private fun bindData(data: NewsVO){
+     fun bindData(data: NewsVO){
         tvLikeUser.text = data.likedUsers.count().toString()
         tvCommentUser.text = data.likedUsers.count().toString()
         tvShareUser.text = data.likedUsers.count().toString()
