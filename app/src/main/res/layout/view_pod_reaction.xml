@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.padcmyanmar.padcx.padc_x_recyclerview_ypst.veiws.viewpods.ReactionViewPod xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvLikeUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_baseline_thumb_up_black_24dp"
+        android:drawablePadding="@dimen/margin_medium"
+        android:drawableTint="@color/colorAccent"
+        android:text="399" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvCommentUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/tvShareUser"
+        android:drawableStart="@drawable/ic_baseline_comment_black_24dp"
+        android:drawablePadding="@dimen/margin_medium"
+        android:drawableTint="@color/colorAccent"
+        android:text="399" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvShareUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/margin_medium"
+        android:layout_alignParentEnd="true"
+        android:drawableStart="@drawable/ic_baseline_share_black_24dp"
+        android:drawablePadding="@dimen/margin_medium"
+        android:drawableTint="@color/colorAccent"
+        android:text="399" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvLikeUser"
+        android:weightSum="3">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvLike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/ic_baseline_thumb_up_black_24dp"
+            android:drawablePadding="@dimen/margin_large"
+            android:text="@string/strLike"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="@dimen/text_regular_2x" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/ic_baseline_comment_black_24dp"
+            android:drawablePadding="@dimen/margin_large"
+            android:text="@string/strComment"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="@dimen/text_regular_2x" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/ic_baseline_share_black_24dp"
+            android:drawablePadding="@dimen/margin_large"
+            android:text="@string/strShare"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="@dimen/text_regular_2x" />
+
+    </LinearLayout>
+
+</com.padcmyanmar.padcx.padc_x_recyclerview_ypst.veiws.viewpods.ReactionViewPod>
