@@ -26,6 +26,10 @@ class MainPresenterImpl : MainPresenter, AbstractBasePresenter<MainView>() {
         Log.d("TAG","onTapShare")
     }
 
+    override fun onTapTryAgain() {
+        loadAllNewsFromAPI()
+    }
+
     override fun onSwipeRefresh(lifecycleOwner: LifecycleOwner) {
         requestAllNews(lifecycleOwner)
     }
@@ -43,5 +47,12 @@ class MainPresenterImpl : MainPresenter, AbstractBasePresenter<MainView>() {
             mView?.disableSwipeRefresh()
             if (it.isEmpty()) mView?.displayEmptyView() else mView?.displayNewsList(it)
         })
+    }
+
+    private fun loadAllNewsFromAPI(){
+        mNewsModel.getAllNewsFromApiAndSaveToDatabase(
+            onSuccess = {},
+            onError = {}
+        )
     }
 }

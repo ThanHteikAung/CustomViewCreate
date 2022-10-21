@@ -10,7 +10,10 @@ class EmptyViewPod @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
 ) : RelativeLayout(context, attrs, defStyleAttr) {
 
+    private var mDelegate : Delegate? =null
+
     override fun onFinishInflate() {
+        setUpListener()
         super.onFinishInflate()
 
     }
@@ -23,5 +26,18 @@ class EmptyViewPod @JvmOverloads constructor(
             .into(ivEmptyImage)
     }
 
+    fun setDelegate(delegate:Delegate){
+        mDelegate = delegate
+    }
+
+    private fun setUpListener(){
+        btnTryAgain.setOnClickListener {
+            mDelegate?.onTapTryAgain()
+        }
+    }
+
+    interface Delegate {
+        fun onTapTryAgain()
+    }
 
 }
