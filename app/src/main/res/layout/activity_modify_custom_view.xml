@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_medium_2"
+        >
+        <com.padcmyanmar.padcx.padc_x_recyclerview_ypst.veiws.components.RoundedCornerImageView
+            android:layout_width="@dimen/custom_image_view_width"
+            android:layout_height="@dimen/custom_image_view_height"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/news_sample"/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
