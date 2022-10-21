@@ -31,9 +31,14 @@ class MainActivity : BaseActivity(), MainView {
 
         /*hideEmptyView()*/
         setUpSwipeRefresh()
-        setUpRecyclerView()
         setUpViewPod()
+        setUpRecyclerView()
+
         mPresenter.onUiReady(this)
+
+        flButton.setOnClickListener{
+            startActivity(ModifyCustomViewActivity.newIntent(this))
+        }
     }
 
     override fun displayNewsList(newsList: List<NewsVO>) {
@@ -42,6 +47,10 @@ class MainActivity : BaseActivity(), MainView {
 
     override fun navigateToNewsDetails(newsId: Int) {
         startActivity(NewsDetailActivity.newItent(this, newsId))
+    }
+
+    override fun displayEmptyView() {
+
     }
 
     /*override fun displayEmptyView() {

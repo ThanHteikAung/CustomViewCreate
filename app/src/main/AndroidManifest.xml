@@ -14,6 +14,9 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".activities.ModifyCustomViewActivity"
+            android:theme="@style/AppTheme.NoActionBar.TranslucentStatusBar" />
+        <activity
             android:name=".activities.NewsDetailActivity"
             android:theme="@style/AppTheme.NoActionBar.TranslucentStatusBar">
 

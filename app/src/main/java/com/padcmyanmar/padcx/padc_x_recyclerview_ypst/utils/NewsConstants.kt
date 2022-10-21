@@ -14,4 +14,5 @@ const val EM_NO_INTERNET_CONNECTION = "No Internet Connection"
 const val EM_NO_NEWS_AVAILABLE = "There are no news available"
 
 //Empty Image
-const val EMPTY_IMAGE_URL = "https://point-broadband.com/wp-content/uploads/2017/06/No-data-caps-graphic-e1497904686711.png"
+//const val EMPTY_IMAGE_URL = "https://point-broadband.com/wp-content/uploads/2017/06/No-data-caps-graphic-e1497904686711.png"
+const val EMPTY_IMAGE_URL = "https://www.freeiconspng.com/uploads/error-icon-32.png"
