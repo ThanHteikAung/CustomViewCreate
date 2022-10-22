@@ -1,0 +1,12 @@
+package com.padcmyanmar.padcx.padc_x_recyclerview_ypst.activities
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import com.padcmyanmar.padcx.padc_x_recyclerview_ypst.R
+
+class CustomComponentActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_custom_component)
+    }
+}
