@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/THA/Data (D)/PADC/Custom View Components/PADC-Custom-View-Components-master/CustomViewComponent/PADC-X-RecyclerView-YPST-master/app/src/main/res/drawable/shape_circle.xml" value="0.117" />
+        <entry key="..\:/THA/Data (D)/PADC/Custom View Components/PADC-Custom-View-Components-master/CustomViewComponent/PADC-X-RecyclerView-YPST-master/app/src/main/res/drawable/shape_circle_accent.xml" value="0.1345" />
         <entry key="..\:/THA/Data (D)/PADC/Custom View Components/PADC-Custom-View-Components-master/CustomViewComponent/PADC-X-RecyclerView-YPST-master/app/src/main/res/layout-v23/view_pod_reaction.xml" value="0.253125" />
         <entry key="..\:/THA/Data (D)/PADC/Custom View Components/PADC-Custom-View-Components-master/CustomViewComponent/PADC-X-RecyclerView-YPST-master/app/src/main/res/layout/activity_custom_component.xml" value="0.25416666666666665" />
         <entry key="..\:/THA/Data (D)/PADC/Custom View Components/PADC-Custom-View-Components-master/CustomViewComponent/PADC-X-RecyclerView-YPST-master/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
@@ -12,6 +14,7 @@
         <entry key="..\:/THA/Data (D)/PADC/Custom View Components/PADC-Custom-View-Components-master/CustomViewComponent/PADC-X-RecyclerView-YPST-master/app/src/main/res/layout/item_news_smalll.xml" value="0.264" />
         <entry key="..\:/THA/Data (D)/PADC/Custom View Components/PADC-Custom-View-Components-master/CustomViewComponent/PADC-X-RecyclerView-YPST-master/app/src/main/res/layout/view_pod_empty.xml" value="0.11302083333333333" />
         <entry key="..\:/THA/Data (D)/PADC/Custom View Components/PADC-Custom-View-Components-master/CustomViewComponent/PADC-X-RecyclerView-YPST-master/app/src/main/res/layout/view_pod_reaction.xml" value="0.264" />
+        <entry key="..\:/THA/Data (D)/PADC/Custom View Components/PADC-Custom-View-Components-master/CustomViewComponent/PADC-X-RecyclerView-YPST-master/app/src/main/res/layout/view_pod_state_progress.xml" value="0.10989583333333333" />
       </map>
     </option>
   </component>

@@ -1,8 +1,7 @@
 package com.padcmyanmar.padcx.padc_x_recyclerview_ypst.activities
 
 import android.os.Bundle
-import android.view.View
-import androidx.lifecycle.ViewModelProviders
+import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.padcmyanmar.padcx.padc_x_recyclerview_ypst.R
 import com.padcmyanmar.padcx.padc_x_recyclerview_ypst.adapters.NewsListAdapter
@@ -66,7 +65,7 @@ class MainActivity : BaseActivity(), MainView {
     }
 
     private fun setUpPresenter() {
-        mPresenter = ViewModelProviders.of(this).get(MainPresenterImpl::class.java)
+        mPresenter = ViewModelProvider(this)[MainPresenterImpl::class.java]
         mPresenter.initPresenter(this)
     }
 
