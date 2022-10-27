@@ -13,5 +13,10 @@
     <string name="strLike">Like</string>
     <string name="strComment">Comment</string>
     <string name="strShare">Share</string>
+    <string name="fan_control">Fan Control</string>
+    <string name="fan_off">off</string>
+    <string name="fan_low">1</string>
+    <string name="fan_medium">2</string>
+    <string name="fan_high">3</string>
 
 </resources>
