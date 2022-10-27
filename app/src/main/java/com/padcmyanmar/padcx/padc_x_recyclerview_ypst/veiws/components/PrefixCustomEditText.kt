@@ -18,8 +18,8 @@ class PrefixCustomEditText(context: Context, attrs: AttributeSet) :
 
     init {
         context.withStyledAttributes(attrs, R.styleable.PrefixCustomEditText){
-            mPrefix = getString(R.styleable.PrefixCustomEditText_prefix) ?: mPrefix
-            mPrefixColor = getColor(R.styleable.PrefixCustomEditText_prefixColor,mPrefixColor)
+            mPrefix = getString(R.styleable.PrefixCustomEditText_prefixText) ?: mPrefix
+            mPrefixColor = getColor(R.styleable.PrefixCustomEditText_prefixTextColor,mPrefixColor)
         }
     }
 

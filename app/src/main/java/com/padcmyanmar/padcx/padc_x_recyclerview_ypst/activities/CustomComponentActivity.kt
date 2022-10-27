@@ -15,12 +15,12 @@ class CustomComponentActivity : AppCompatActivity() {
 
         //1
         happyButton.setOnClickListener {
-            emotionalFaceView.happinessSate = EmotionalFaceView.HAPPY
+            emotionalFaceView.happinessState = EmotionalFaceView.HAPPY
         }
 
         //2
         sadButton.setOnClickListener {
-            emotionalFaceView.happinessSate = EmotionalFaceView.SAD
+            emotionalFaceView.happinessState = EmotionalFaceView.SAD
         }
     }
 
